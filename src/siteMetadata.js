@@ -4,7 +4,7 @@ export default {
   title: "RikuKinoshita Development Blog",
 
   author: "RikuKinoshita",
-  description: "Development Blog",
+  description: "RikuKinoshita Development Blog",
 
   // The number of posts to a page on the site index.
   indexPageSize: 10,
