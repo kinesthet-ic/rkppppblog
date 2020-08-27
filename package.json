@@ -1,4 +1,5 @@
 {
+  "homepage": "http://yuribenjamin.github.io/react-blog",
   "name": "react-blog",
   "version": "1.0.0",
   "private": true,
@@ -6,7 +7,7 @@
     "blueimp-md5": "^2.3.0",
     "feed": "^2.0.2",
     "import-all.macro": "^2.0.3",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.20",
     "navi": "^0.13.3",
     "navi-scripts": "^0.13.3",
     "netlify-cli": "^2.6.0",
@@ -21,12 +22,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && navi-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "serve": "navi-scripts serve",
-    "deploy": "netlify deploy --dir=build",
-    "deploy:prod": "netlify deploy --dir=build --prod"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -36,5 +36,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }

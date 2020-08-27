@@ -1,6 +1,6 @@
 export default {
-  title: `Congratulations on Your New Blog!`,
-  tags: ['react', 'navi'],
-  spoiler: "Learn how to add new posts and tweak the theme to your liking.",
+  title: `sushisla`,
+  tags: ['sns', 'share', 'app', 'web', 'sushisla'],
+  spoiler: "snsをまとめて管理し簡単にアカウントを共有しよう。",
   getContent: () => import('./document.mdx'),
 }
