@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{55:function(s,n,e){"use strict";e.r(n),n.default={title:"sushisla",tags:["sns","share","app","web","sushisla"],spoiler:"sns\u3092\u307e\u3068\u3081\u3066\u7ba1\u7406\u3057\u7c21\u5358\u306b\u30a2\u30ab\u30a6\u30f3\u30c8\u3092\u5171\u6709\u3057\u3088\u3046\u3002",getContent:function(){return e.e(3).then(e.bind(null,50))}}}}]);
+//# sourceMappingURL=7.211955f0.chunk.js.map
